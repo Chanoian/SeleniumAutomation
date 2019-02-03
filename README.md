@@ -1,6 +1,6 @@
-"MySeleniumLibrary.py" is Python 3 based Library , which uses Selenium in the backend.
+"MySeleniumLibrary.py" is Python 3 based Library , which uses Selenium API in the backend.
 "ShoppingTestCase.robot" this is the test case which will call the libray's function to test specific scenario.
-The output of this test case will be located in the html file named "log.html" in the same directory.
+The output of this test case will be located in html FORMAT file named "log.html" in the same directory.
 
 When you run this test case it will reproduce two .png capture.
 endOfTestScreenShot.png : this will get captured in the end of the test case.
