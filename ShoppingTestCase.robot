@@ -18,7 +18,7 @@ ${quick_view_string}   Quick view
 ${quick_view_xpath}   //div[@id='center_column']/ul/li[3]/div/div/div/a[2]
 ${proceed_to_check_out1_xpath}     //div[4]/a/span
 ${proceed_to_check_out2_xpath}     //div[3]/div/p[2]/a/span
-${email_address}        myemail66552123112f222hkk2@gmail.com
+${email_address}        myemailfortest2020@gmail.com
 ${first_name}           myFirstName
 ${last_name}            myLastName
 ${password}             myPasswd

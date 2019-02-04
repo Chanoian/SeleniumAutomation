@@ -30,7 +30,7 @@ class MySeleniumLibrary(object):
 		self.country_locator = "id_country"
 		self.state_locator = "id_state"
 		self.phoneNumber_locator = "phone_mobile"
-		self.terms_conditions_locator = "cgv"
+		self.terms_conditions_locator = "label"
 
 	def __del__(self):
 		self._take_screen_shot(filename="endOfTestScreenShot.png")
@@ -171,4 +171,4 @@ class MySeleniumLibrary(object):
 		self.click_and_type(locator=self.phoneNumber_locator, locator_type="id", value=phone_number)
 
 	def accept_terms_and_conditions(self):
-		self.click_element(locator=self.terms_conditions_locator, locator_type="name")
+		self.click_element(locator=self.terms_conditions_locator, locator_type="css")
