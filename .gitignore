@@ -12,3 +12,7 @@
 # Output LOG #
 #########
 *.log
+
+# Output Report #
+########
+report.html
