@@ -8,3 +8,7 @@
 # Output XML #
 ##########
 *.xml
+
+# Output LOG #
+#########
+*.log
